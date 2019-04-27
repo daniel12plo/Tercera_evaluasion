@@ -7,29 +7,22 @@ public class Pet {
         this.nombre=nombre;}
         
     //Metodos
-    void setNombre(String nuevo_nombre){ //void se utiliza si la funcion no devuelve nada
-        this.nombre=nuevo_nombre;}
-    
-    void setEspecie(String nueva_especie){ //Por convenio pongo set seguido de la palabra con la primera letra en mayuscula
-        this.especie=nueva_especie;}
-    
+    void setNombre(String nuevo_nombre){ 
+        this.nombre=nuevo_nombre;}    
+    void setEspecie(String nueva_especie){ 
+        this.especie=nueva_especie;}   
     void setEdad(int nueva_edad){
-        this.edad=nueva_edad;}
-    
+        this.edad=nueva_edad;}    
     void setVacunado(boolean nuevo_vacunado){
         this.vacunado=nuevo_vacunado;}
-        
+    
     //Metodos get
     String getNombre(){
-        return(nombre);}
-    
+        return(nombre);}    
     String geteEpecie(){
-        return(especie);}
-    
+        return(especie);}   
     int getEdad(){
-        return(edad);}
-    
+        return(edad);}  
     boolean getVacunado(){
-        return(vacunado);}
-        
+        return(vacunado);}      
 }
